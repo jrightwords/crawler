@@ -1,4 +1,3 @@
-#
 # -*- coding: utf-8 -*-
 #  George Gorbunov
 
@@ -70,7 +69,7 @@ def print_links (url,n, m, db, search):
         graph.append([url])
         
     print " %s %s " % ("*"*n,url)
-    enlaces = pymycraawler.retrieve_url (url)
+    enlaces = retrieve_url (url)
 
     opener = urllib2.build_opener ()    
     try:
@@ -159,3 +158,4 @@ def main():
         sleep(config.getint('Miscellaneous', 'time_Interval')*3600)
 if __name__=='__main__':
        main ()
+"""Main module."""
