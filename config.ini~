@@ -1,0 +1,19 @@
+[Main]
+criteria = \d\d:\d\d
+website =["http://www.yandex.ru","http://www.lenta.ru"]
+
+[MySQL]
+MySQL_Server =localhost
+MySQL_login =admin
+MySQL_password =adminadmin
+
+[Email]
+SMTP_Server =smtp.fullspace.ru
+SMTP_login =admin@sovremennay-gravura.ru
+SMTP_addressant =jrightwords@yandex.ru
+SMTP_password =adminadmin
+
+[Miscellaneous]
+time_Interval =1
+depth=1
+
